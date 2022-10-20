@@ -17,7 +17,7 @@ def get_bad_words():
 
 texts = {
     'start': 'Merhaba, ben istenmeyen içeriği kaldıran bir sohbet botuyum. Yasaklanmış kelimeleri, fotoğrafları, coğrafi konumu, kişileri, belgeleri ve diğer çöpleri silebilirim. İstenmeyen posta koruması ayarlamak da mümkündür. \n\n',
-    'help_text': 'Kötü içerikli gönderileri silebilmem için lütfen 'Yönetici Yap' bölümünde 'Mesajları Silme' izni verin \n Bütün bunlardan sonra düzgün çalışacağım!!',
+    'help_text': 'Kötü içerikli gönderileri silebilmem için lütfen "Yönetici Yap" bölümünde "Mesajları Silme"  izni verin \n Bütün bunlardan sonra düzgün çalışacağım!!',
     'no_perm': 'Değerli yöneticiler, {0}Yayınları silme iznim yok! \n Lütfen düzeltin!',
     'add_chat': 'Sohbete ekle',
     'add_antispam': 'Spam koruması',
