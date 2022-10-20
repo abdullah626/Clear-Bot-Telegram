@@ -5,8 +5,8 @@ import json
 import logging
 
 
-admin_user = ["por0vos1k"]
-token = "1426362013:AAEHULtj5Spt4CzJA3XTmh_J2NzrkbyyQ4o"
+admin_user = ["kaosyancisi"]
+token = "5400477700:AAHd52D-OuYmT9kZGK0HBeyaYcBYkbbEfO8"
 
 
 def get_bad_words():
