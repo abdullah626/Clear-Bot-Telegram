@@ -16,17 +16,17 @@ def get_bad_words():
 
 
 texts = {
-    'start': 'Здравствуйте, я - бот, убирающий нежелательный контент в чате. Могу удалять запрещенные слова, фото, геолокацию, контакты, документы и прочий мусор. Также имеется возможность поставить защиту от спама. \n\n',
-    'help_text': 'Для того, чтобы я смог удалять сообщения с плохим содержанием, выдайте мне права на "Удаление сообщений" при "Сделать администратором"\nПосле всех проделанный действий я буду работать корректно!',
-    'no_perm': 'Дорогие админы, {0}у меня нет прав на удаление сообщений!\nИсправьте пожалуйста!',
-    'add_chat': 'Добавить в чат',
-    'add_antispam': 'Защита от спама',
-    'add_antispam_tutor': 'Для того, чтобы подключить защиту от спама в вашем чате - вам необходимо:\n\n1) Зайти в настройки чата\n\n2) Управление группой\n\n3) Разрешения\n\n4) Выбрать пункт - Медленный режим (там вы можете указать ограничение на отправку сообщений по времени)\n\nГотово! Теперь ваш чат защищен и находится в безопасности.',
-    'add_antispam_list': ['защита от спама', 'спам', 'защита', 'защита от', 'защита спам'],
-    'add_chat_list': ['добавить в чат', 'добавить', 'чат'],
-    'add_chat_tutor': 'Чтобы добавить меня в чат, нажмите на кнопку ниже и выберите чат!\n\n<i>Примечание: если вы не администратор чата, возможно не сможете добавить бота!</i>',
-    'help': 'Помощь',
-    'help_list': ['помощь', 'подмога', 'поддержка'],
+    'start': 'Merhaba, ben istenmeyen içeriği kaldıran bir sohbet botuyum. Yasaklanmış kelimeleri, fotoğrafları, coğrafi konumu, kişileri, belgeleri ve diğer çöpleri silebilirim. İstenmeyen posta koruması ayarlamak da mümkündür. \n\n',
+    'help_text': 'Kötü içerikli gönderileri silebilmem için lütfen 'Yönetici Yap' bölümünde 'Mesajları Silme' izni verin \n Bütün bunlardan sonra düzgün çalışacağım!!',
+    'no_perm': 'Değerli yöneticiler, {0}Yayınları silme iznim yok! \n Lütfen düzeltin!',
+    'add_chat': 'Sohbete ekle',
+    'add_antispam': 'Spam koruması',
+    'add_antispam_tutor': 'Sohbetinizde spam korumasını etkinleştirmek için şunları yapmanız gerekir: \n \n 1) Sohbet ayarlarına gidin \n \n 2) Grubu yönetin \n \n 3) İzinler \n \n 4) Seç öğe - Yavaş mod (burada mesaj göndermek için bir zaman sınırı belirleyebilirsiniz) \n \n Bitti! Sohbetiniz artık korumalı ve güvende.',
+    'add_antispam_list': ['spam koruması' , 'spam' , 'koruma' , 'dan koruma' , 'spam koruması'],
+    'add_chat_list': ['sohbete ekle' , 'ekle' , 'sohbet'],
+    'add_chat_tutor': 'Beni bir sohbete eklemek için aşağıdaki düğmeyi tıklayın ve bir sohbet seçin! \n \n <i>Not: Bir sohbet yöneticisi değilseniz, bir bot ekleyemeyebilirsiniz!</i>',
+    'help': 'Yardım',
+    'help_list': ['yardım' , 'yardım' , 'destek' ],
     'bad_words': get_bad_words()
 }
 
