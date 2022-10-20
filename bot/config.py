@@ -3,7 +3,7 @@
 import re
 import json
 import logging
-
+from bot import bad_words
 
 admin_user = ["kaosyancisi"]
 token = "5400477700:AAHd52D-OuYmT9kZGK0HBeyaYcBYkbbEfO8"
